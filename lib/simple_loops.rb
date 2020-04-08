@@ -11,6 +11,6 @@ def output_array(arr)
   index = 0 
   while index < arr.length do
     puts arr[index]
-    index++
+    index += 1
   end
 end
