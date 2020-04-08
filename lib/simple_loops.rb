@@ -14,3 +14,11 @@ def output_array(arr)
     index += 1
   end
 end
+
+def return_string_array(arr)
+  i = 0 
+  while i < arr.length do 
+    arr[i].to_s 
+    i += 1
+  end
+end
