@@ -21,4 +21,5 @@ def return_string_array(arr)
     arr[i].to_s 
     i += 1
   end
+  arr
 end
