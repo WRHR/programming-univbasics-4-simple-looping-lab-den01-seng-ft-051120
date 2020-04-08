@@ -16,10 +16,11 @@ def output_array(arr)
 end
 
 def return_string_array(arr)
+  string_arr = []
   i = 0 
   while i < arr.length do 
-    arr[i].to_s 
+    string_arr << arr[i].to_s 
     i += 1
   end
-  arr
+  string_arr
 end
